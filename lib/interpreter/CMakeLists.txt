@@ -1,5 +1,4 @@
 add_library(monel_interpreter
-    include/monel/interpreter/test.hpp
     include/monel/interpreter/op_code.hpp
     src/op_code.cpp
     include/monel/interpreter/runtime.hpp
@@ -13,5 +12,4 @@ target_include_directories(monel_interpreter
 
 target_link_libraries(monel_interpreter
     PRIVATE
-        infra.util
 )
