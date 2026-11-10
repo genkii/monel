@@ -3,5 +3,6 @@
 enum class OpCode : std::uint8_t
 {
     LDI = 0x01,
-    HALT = 0x02,
+    CLEAR = 0x02,
+    HALT = 0x03,
 };

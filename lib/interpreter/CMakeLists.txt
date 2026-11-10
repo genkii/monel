@@ -3,6 +3,10 @@ add_library(monel_interpreter
     src/op_code.cpp
     include/monel/interpreter/runtime.hpp
     src/step.cpp
+    src/init.cpp
+    src/run.cpp
+    src/read/read_byte.cpp
+    src/read/read_word.cpp
 )
 
 target_include_directories(monel_interpreter
